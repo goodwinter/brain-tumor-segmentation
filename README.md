@@ -46,10 +46,3 @@ Steps to train the model, including commands to execute:
 To train the model, run:
 ```bash
 python scripts/train.py
-
-
-
-
-
-
-
