@@ -34,7 +34,6 @@ The model was trained for 10 epochs on the brain tumor dataset. Below are the re
    ```bash
    python scripts/download.py
 
-
 ---
 
 ### 4. **Training the Model**
