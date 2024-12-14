@@ -1,39 +1,36 @@
 # Brain Tumor Segmentation
 
-This project aims to classify and segment brain tumor images using deep learning. 
-It is implemented with TensorFlow and trained on a custom brain tumor dataset.
-
-
-
-
-## 3.Installation
-
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/goodwinter/brain-tumor-segmentation.git
-   cd brain-tumor-segmentation
-   
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-
-3. Download and extract the dataset:
-   ```bash
-   python scripts/download.py
+This project aims to classify and segment brain tumor images using deep learning. It is implemented with TensorFlow and trained on a custom brain tumor dataset.
 
 ---
 
-### 4. **Training the Model**
-Steps to train the model, including commands to execute:
+## Installation
 
-```markdown
-## Training
+1. **Clone this repository**:
+    ```bash
+    git clone https://github.com/goodwinter/brain-tumor-segmentation.git
+    cd brain-tumor-segmentation
+    ```
 
-To train the model, run:
+2. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Download and extract the dataset**:
+    ```bash
+    python scripts/download.py
+    ```
+
+---
+
+## Training the Model
+
+### Steps to Train:
+To train the model, run the following command:
 ```bash
 python scripts/train.py
 
----
 
 ## Training Results
 
