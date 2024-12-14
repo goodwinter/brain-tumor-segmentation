@@ -33,6 +33,8 @@ To train the model, run:
 ```bash
 python scripts/train.py
 
+---
+
 ## Training Results
 
 The model was trained for 10 epochs on the brain tumor dataset. Below are the results:
