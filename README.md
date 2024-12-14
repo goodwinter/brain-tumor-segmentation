@@ -37,8 +37,8 @@ The model was trained for 10 epochs on the brain tumor dataset. Below are the re
 
 ---
 
-### 4. **訓練模型**
-描述如何進行模型訓練，包括需要執行的命令：
+### 4. **Training the Model**
+Steps to train the model, including commands to execute:
 
 ```markdown
 ## Training
@@ -46,3 +46,13 @@ The model was trained for 10 epochs on the brain tumor dataset. Below are the re
 To train the model, run:
 ```bash
 python scripts/train.py
+
+
+## 5. Viewing Training Results
+To inspect the training progress:
+
+
+
+
+
+
