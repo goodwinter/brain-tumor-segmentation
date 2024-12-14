@@ -18,3 +18,29 @@ The model was trained for 10 epochs on the brain tumor dataset. Below are the re
 ### Observations:
 - The training accuracy reached 100% by epoch 7, but the validation accuracy remained low (~36%), indicating potential overfitting.
 - Further tuning of the model or regularization techniques may be required to improve validation performance.
+
+## Installation
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/goodwinter/brain-tumor-segmentation.git
+   cd brain-tumor-segmentation
+   
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Download and extract the dataset:
+   python scripts/download.py
+
+
+---
+
+### 4. **訓練模型**
+描述如何進行模型訓練，包括需要執行的命令：
+
+```markdown
+## Training
+
+To train the model, run:
+```bash
+python scripts/train.py
