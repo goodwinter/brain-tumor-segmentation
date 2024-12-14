@@ -29,6 +29,7 @@ The model was trained for 10 epochs on the brain tumor dataset. Below are the re
 2. Install dependencies:
    pip install -r requirements.txt
 
+
 3. Download and extract the dataset:
    python scripts/download.py
 
