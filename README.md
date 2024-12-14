@@ -27,10 +27,10 @@ The model was trained for 10 epochs on the brain tumor dataset. Below are the re
    cd brain-tumor-segmentation
    
 2. Install dependencies:
+   ```bash
    pip install -r requirements.txt
 
-
-3. Download and extract the dataset:
+4. Download and extract the dataset:
    python scripts/download.py
 
 
