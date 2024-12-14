@@ -48,9 +48,6 @@ To train the model, run:
 python scripts/train.py
 
 
-## 5. Viewing Training Results
-To inspect the training progress:
-
 
 
 
