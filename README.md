@@ -17,7 +17,7 @@ It is implemented with TensorFlow and trained on a custom brain tumor dataset.
    ```bash
    pip install -r requirements.txt
 
-4. Download and extract the dataset:
+3. Download and extract the dataset:
    ```bash
    python scripts/download.py
 
