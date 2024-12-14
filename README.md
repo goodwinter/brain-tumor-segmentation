@@ -19,7 +19,7 @@ The model was trained for 10 epochs on the brain tumor dataset. Below are the re
 - The training accuracy reached 100% by epoch 7, but the validation accuracy remained low (~36%), indicating potential overfitting.
 - Further tuning of the model or regularization techniques may be required to improve validation performance.
 
-## Installation
+## 3.Installation
 
 1. Clone this repository:
    ```bash
