@@ -1,6 +1,7 @@
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
+
 def load_data(data_dir):
     """
     加載數據並進行預處理
@@ -37,7 +38,7 @@ def build_model():
         tf.keras.layers.Dense(128, activation='relu'),
         tf.keras.layers.Dense(3, activation='softmax')  # 假設有 3 個類別
     ])
-    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+    model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
     return model
 
 def train_model():
